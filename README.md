@@ -1,3 +1,14 @@
+# Rviz Cinematographer 사용법 메모
+
+
+
+```bash
+$ rostopic pub /rviz/record rviz_cinematographer_msgs/Record "{do_record: true, path_to_output: '/home/shapelim/Videos/test_v2.mp4', frames_per_second: 30, compress: false, add_watermark: false}"
+```
+
+---
+
+
 # Rviz Cinematographer
 
 An rqt plugin to create and edit trajectories for the rviz camera and record its views in a video.
